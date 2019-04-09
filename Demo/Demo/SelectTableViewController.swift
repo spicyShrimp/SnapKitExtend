@@ -1,12 +1,13 @@
 //
 //  SelectTableViewController.swift
-//  SnapKitExtension
+//  SnapKitExtend
 //
 //  Created by charles on 2017/8/11.
 //  Copyright © 2017年 charles. All rights reserved.
 //
 
 import UIKit
+import SnapKitExtend
 
 class SelectTableViewController: UITableViewController {
 
@@ -50,6 +51,7 @@ class SelectTableViewController: UITableViewController {
             vc = SnapSudoku2ViewController()
         default: break
         }
+        vc.title = dataSource[indexPath.row]
         navigationController?.pushViewController(vc, animated: true)
     }
 }

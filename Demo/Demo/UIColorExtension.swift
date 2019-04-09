@@ -1,6 +1,6 @@
 //
 //  UIColorExtension.swift
-//  SnapKitExtension
+//  SnapKitExtend
 //
 //  Created by charles on 2017/8/11.
 //  Copyright © 2017年 charles. All rights reserved.

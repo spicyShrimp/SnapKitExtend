@@ -1,13 +1,12 @@
 //
 //  SnapSudoku2ViewController.swift
-//  SnapKitExtension
+//  SnapKitExtend
 //
 //  Created by charles on 2017/8/11.
 //  Copyright © 2017年 charles. All rights reserved.
 //
 
 import UIKit
-import SnapKit
 
 class SnapSudoku2ViewController: UIViewController {
 
@@ -16,7 +15,7 @@ class SnapSudoku2ViewController: UIViewController {
         
         view.backgroundColor = UIColor.white
         
-        var arr: Array<ConstraintView> = [];
+        var arr: Array<UIView> = [];
         for _ in 0..<9 {
             let subview = UIView()
             subview.backgroundColor = UIColor.random

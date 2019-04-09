@@ -1,13 +1,12 @@
 //
 //  SnapSameSpaceViewController.swift
-//  SnapKitExtension
+//  SnapKitExtend
 //
 //  Created by charles on 2017/8/11.
 //  Copyright © 2017年 charles. All rights reserved.
 //
 
 import UIKit
-import SnapKit
 
 class SnapSameSpaceViewController: UIViewController {
 
@@ -16,23 +15,13 @@ class SnapSameSpaceViewController: UIViewController {
         
         view.backgroundColor = UIColor.white
         
-        let view1 = UIView()
-        view1.backgroundColor = UIColor.random
-        view.addSubview(view1)
-        
-        let view2 = UIView()
-        view2.backgroundColor = UIColor.random
-        view.addSubview(view2)
-        
-        let view3 = UIView()
-        view3.backgroundColor = UIColor.random
-        view.addSubview(view3)
-        
-        let view4 = UIView()
-        view4.backgroundColor = UIColor.random
-        view.addSubview(view4)
-        
-        let arr = [view1, view2, view3, view4]
+        var arr: Array<UIView> = [];
+        for _ in 0..<4 {
+            let subview = UIView()
+            subview.backgroundColor = UIColor.random
+            view.addSubview(subview)
+            arr.append(subview)
+        }
         
 //        axisType:方向
 //        fixedSpacing:中间间距
