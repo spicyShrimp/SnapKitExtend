@@ -1,8 +1,0 @@
-platform :ios, '9.0'
-
-target 'SnapKitExtension' do
-  use_frameworks!
-
-  pod 'SnapKit'
-
-end
