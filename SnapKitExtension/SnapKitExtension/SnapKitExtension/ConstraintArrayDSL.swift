@@ -42,7 +42,7 @@ public struct ConstraintArrayDSL {
     ///   - fixedSpacing: the spacing between each item
     ///   - leadSpacing: the spacing before the first item and the container
     ///   - tailSpacing: the spacing after the last item and the container
-    public func distributeViewsAlong(axisType:UILayoutConstraintAxis,
+    public func distributeViewsAlong(axisType:NSLayoutConstraint.Axis,
                                      fixedSpacing:CGFloat,
                                      leadSpacing:CGFloat = 0,
                                      tailSpacing:CGFloat = 0) {
@@ -93,7 +93,7 @@ public struct ConstraintArrayDSL {
     ///   - fixedItemLength: the fixed length of each item
     ///   - leadSpacing: the spacing before the first item and the container
     ///   - tailSpacing: the spacing after the last item and the container
-    public func distributeViewsAlong(axisType:UILayoutConstraintAxis,
+    public func distributeViewsAlong(axisType:NSLayoutConstraint.Axis,
                                      fixedItemLength:CGFloat,
                                      leadSpacing:CGFloat = 0,
                                      tailSpacing:CGFloat = 0) {
