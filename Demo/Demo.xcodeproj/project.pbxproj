@@ -19,6 +19,7 @@
 		5689EC0E225CA7090044FFB5 /* SnapSudokuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5689EC06225CA7090044FFB5 /* SnapSudokuViewController.swift */; };
 		5689EC0F225CA7090044FFB5 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5689EC07225CA7090044FFB5 /* UIColorExtension.swift */; };
 		5689EC10225CA7090044FFB5 /* SnapWithArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5689EC08225CA7090044FFB5 /* SnapWithArrayViewController.swift */; };
+		56BA089A228009C2006989DA /* ConstraintArrayDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BA0899228009C2006989DA /* ConstraintArrayDSL.swift */; };
 		C018CA39B5373FDD6037F652 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45408586AD8287719194B74D /* Pods_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		5689EC06225CA7090044FFB5 /* SnapSudokuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapSudokuViewController.swift; sourceTree = "<group>"; };
 		5689EC07225CA7090044FFB5 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		5689EC08225CA7090044FFB5 /* SnapWithArrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapWithArrayViewController.swift; sourceTree = "<group>"; };
+		56BA0899228009C2006989DA /* ConstraintArrayDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintArrayDSL.swift; sourceTree = "<group>"; };
 		C94C24987028769521C6A84C /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		CB640A9EA6FB73A07E666047 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +86,7 @@
 		5689EBE9225CA5D10044FFB5 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				56BA0898228009C2006989DA /* SnapKitExtend */,
 				5689EBEA225CA5D10044FFB5 /* AppDelegate.swift */,
 				5689EC01225CA7090044FFB5 /* SelectTableViewController.swift */,
 				5689EC05225CA7090044FFB5 /* SnapSameSpaceViewController.swift */,
@@ -99,6 +102,15 @@
 				5689EBF6225CA5D30044FFB5 /* Info.plist */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		56BA0898228009C2006989DA /* SnapKitExtend */ = {
+			isa = PBXGroup;
+			children = (
+				56BA0899228009C2006989DA /* ConstraintArrayDSL.swift */,
+			);
+			name = SnapKitExtend;
+			path = ../../SnapKitExtend;
 			sourceTree = "<group>";
 		};
 		EE1403BA89FE51C194679E7D /* Frameworks */ = {
@@ -210,14 +222,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKitExtend/SnapKitExtend.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKitExtend.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -235,6 +245,7 @@
 				5689EC0E225CA7090044FFB5 /* SnapSudokuViewController.swift in Sources */,
 				5689EC0A225CA7090044FFB5 /* SnapWithArray2ViewController.swift in Sources */,
 				5689EC10225CA7090044FFB5 /* SnapWithArrayViewController.swift in Sources */,
+				56BA089A228009C2006989DA /* ConstraintArrayDSL.swift in Sources */,
 				5689EC09225CA7090044FFB5 /* SelectTableViewController.swift in Sources */,
 				5689EC0D225CA7090044FFB5 /* SnapSameSpaceViewController.swift in Sources */,
 				5689EC0F225CA7090044FFB5 /* UIColorExtension.swift in Sources */,

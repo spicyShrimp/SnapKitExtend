@@ -2,7 +2,7 @@
 SnapKit的扩展,SnapKit类似于Masonry,但是其没有对Arry的设置和对等间距排列的布局等,此扩展是类似Masonry的写法对SnapKit的补充,同时补充九宫格布局方式
 
 ```
-pod 'SnapKitExtend', '~> 1.0.6'
+pod 'SnapKitExtend', '~> 1.0.7'
 ```
 
 

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SnapKitExtend"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.license      = "MIT"
   s.summary      = "Snapkit extend to support multiple view layout and a grid layout."
   s.homepage     = "https://github.com/spicyShrimp/SnapKitExtend"

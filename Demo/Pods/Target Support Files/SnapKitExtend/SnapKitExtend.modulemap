@@ -1,6 +1,0 @@
-framework module SnapKitExtend {
-  umbrella header "SnapKitExtend-umbrella.h"
-
-  export *
-  module * { export * }
-}
